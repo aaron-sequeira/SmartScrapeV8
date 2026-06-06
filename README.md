@@ -97,3 +97,4 @@ This makes the fallback extractor more conservative on noisy content such as sup
 - Batch processing is sequential inside each batch to reduce the chance of rate limiting or IP bans. Use `--batch-size`, `--delay-between-urls-seconds`, `--delay-between-batches-seconds`, and `--cooldown-on-error-seconds` to tune pacing.
 - Optional model override: `--gemini-model gemini-2.5-flash`
 - If no deals are found, Gemini is instructed to return `NO_DEALS_FOUND`.
+- Nice
